@@ -1,0 +1,29 @@
+nav {
+    background-color: #31263d;
+    color: white;
+   }
+  nav li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  .link:hover {
+    color: #B39DDB;
+  }
+  
+  .size {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+  }
+  .logoLink {
+    text-decoration: none;
+    color: white;
+  }
+  .logoLink:hover {
+    text-decoration: none;
+    color: white;
+  }

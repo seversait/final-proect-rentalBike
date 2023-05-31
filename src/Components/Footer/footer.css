@@ -1,0 +1,42 @@
+footer {
+    background-color: #31263d;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	padding-top:20px;
+  }
+  footer a{
+     color: #FFF; 
+  text-decoration:none;
+  }
+  
+  .footer {
+    max-width: 1450px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+.size-logo {
+    width: 200px;
+}
+  .kontact{
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 380px) {
+    .footer {
+      justify-content: center;
+    }
+    .footer div {
+      margin: 0;
+    }
+  }
+  @media screen and (max-width: 723px) {
+    footer {
+      display: block;
+    }
+  }
