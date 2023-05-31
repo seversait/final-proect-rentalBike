@@ -110,7 +110,7 @@ export const AllOfficers = ({ setApproved }) => {
         {(newWorker && (
           <form method="post" className="addOfficer" onSubmit={handleSubmit}>
             <div className="relat">
-			<h3>Добавление нового<br> сотрудника</h3>
+			<h3>Добавление нового сотрудника</h3>
               <span
                 style={{
                   color: "white",
